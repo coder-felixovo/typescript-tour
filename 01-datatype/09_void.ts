@@ -1,13 +1,17 @@
-/*
-  void
-  当一个函数没有返回值时，将其返回值类型设为void
+/* 
+  Demo about TS type `void`
 */
-{
-  function warn(): void {
-    console.log('This is warning message')
+namespace voidTypeDemo {
+  // You usually see a function return type is void, when the function does not return a value.
+  function greet(): void {
+    console.log('Hello, welcome!')
   }
-  // 声明一个void类型的变量没有什么作用，因为只能为它赋予undefined和null
+
+  // Declaring a variable of type void usually has no effect.
+  // You can only assign a value of undefined or null to a void variable.
+
   let useless: void = undefined
-  // 需要在strictNullChecks为false时，才能为void类型赋值null
-  // let futile: void = null
+
+  // When strictNullChecks is false, this will be ok.
+  let futile: void = null
 }

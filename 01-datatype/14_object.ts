@@ -1,10 +1,16 @@
 /*
-  object
-  表示非原始类型
+  Demo about TS type `object`
+  object type represents a non-primitive type
 */
-{
+namespace objectTypeDemo {
   let obj: object = {}
-  // 以下都不允许
+
+  // The follow is allowed
+  obj = []
+  obj = {}
+  obj = new Date()
+
+  // The following is not allowed.
   obj = 3.14
   obj = 'hello'
   obj = true

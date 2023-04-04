@@ -1,10 +1,11 @@
-/* 
-  string
-  可以使用单引号、双引号和模板字符串
+/*
+  Demo about TS type `string`.
+  Single quotes, double quotes and template strings are all allowed.
 */
-{
+namespace stringTypeDemo {
   let year: string = '2023'
-  let ChineseZodiac: string = "兔"
-  let sentence: string = `今年是${year}年，是${ChineseZodiac}年`
+  let ChineseZodiac: string = "Rabbit"
+  let sentence: string = `This year is ${year} year, the Year of the ${ChineseZodiac}.`
   console.log(sentence)
+  // This year is 2023 year, the Year of the Rabbit.
 }

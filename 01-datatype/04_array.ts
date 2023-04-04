@@ -1,10 +1,12 @@
-/* 
-  Array 
+/*
+  Demo about TS type `Array`.
 */
-{
-  // 1. 元素类型后加上[]
+namespace arrayTypeDemo {
+  // An array includes number.
+
+  // 1. type[]
   let arr1: number[] = [1, 2, 3]
 
-  // 2. 数组泛型
+  // 2. Array<type>
   let arr2: Array<number> = [4, 5, 6]
 }

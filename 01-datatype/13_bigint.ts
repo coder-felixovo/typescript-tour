@@ -1,13 +1,13 @@
 /* 
-  bigint
-  可以存储和操作大整数
-  注意：
-  1. 需要在tsconfig.json的lib字段加上ESNext
-  2. number和bigint类型不一样
+  Demo about type `bigint`
+  1. In tsconfig.json: "lib": "ESnext"
+  2. type `bigint` is different from type `number`
 */
-{
+namespace bigintTypeDemo {
   let foo: number
   let bar: bigint
-  foo = bar // error
-  bar = foo // error
+
+  // The following is not allowed
+  foo = bar
+  bar = foo
 }

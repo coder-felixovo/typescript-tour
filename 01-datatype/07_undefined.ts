@@ -1,7 +1,6 @@
-/* 
-  undefined
-  默认情况下，undefined是所有类型的子类型
+/*
+  Demo about type `undefined`
 */
-{
+namespace undefinedTypeDemo {
   let u: undefined = undefined
 }

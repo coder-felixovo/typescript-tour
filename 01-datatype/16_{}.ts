@@ -1,13 +1,17 @@
-/* 
-  {} 空对象类型
+/*
+  Demo about type `{}`
 */
-{
+namespace emptyObjectTypeDemo {
   let simple: {}
   simple = 2.71
   simple = 'hello'
   simple = true
   simple = {}
-  // 以下都不允许
+  simple = []
+  simple = new Date()
+  simple = Symbol('foo')
+
+  // The following is not allowed
   simple = null
   simple = undefined
 }

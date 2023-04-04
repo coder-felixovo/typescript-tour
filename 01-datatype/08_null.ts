@@ -1,7 +1,6 @@
-/* 
-  null
-  默认情况下，null是所有类型的子类型
+/*
+  Demo about type `null`
 */
-{
+namespace nullTypeDemo {
   let n: null = null
 }

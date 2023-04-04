@@ -1,13 +1,14 @@
 /* 
-  Object
+  Demo about type `Object`
 */
-{
+namespace ObjectTypeDemo {
   let Obj: Object
   Obj = 3.14
   Obj = 'hello'
   Obj = true
   Obj = {}
-  // 以下都不允许
+
+  // The following is not allowed
   Obj = null
   Obj = undefined
 }
