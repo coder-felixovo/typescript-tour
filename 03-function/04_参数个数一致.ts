@@ -1,7 +1,7 @@
-/* 
-  在TS中，传递给一个函数的参数个数必须与函数期望的个数一致
- */
-{
+namespace functionDemo04 {
+  /* 
+    在TS中，传递给一个函数的参数个数必须与函数期望的个数一致
+  */
   function sum(num1: number, num2: number) {
     return num1 + num2
   }

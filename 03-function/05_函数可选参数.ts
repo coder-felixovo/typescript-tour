@@ -1,8 +1,8 @@
-/* 
-  在TS中，在函数参数名后加?表示可选参数。
-    可选参数必须跟在必须参数后面
- */
-{
+namespace functionDemo05 {
+  /* 
+    1. 在函数参数名后加?表示可选参数。
+    2. 可选参数必须跟在必填参数后面。
+  */
   function createRole(name: string, age: number, animation?: string) {
     return {
       name,
